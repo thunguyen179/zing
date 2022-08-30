@@ -1,0 +1,336 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+.zing-header {
+    border-bottom: 1px solid #00000029;
+    margin-bottom: 10px;
+}
+
+.zing1{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.page-wrapper{
+    width: 9%;
+}
+.page-wrapper2{
+    margin-bottom: 50px;
+}
+
+.main-menu{
+    display: flex;
+    width: 57%;
+    justify-content: space-between;
+}
+
+.login{
+    width: 8%;
+}
+.widget1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.widget-ticker2{
+    display: flex;
+}
+
+.hastag-trending {
+    display: flex;
+    margin-left: 10px;
+}
+.hastag-trending li {
+    margin-right: 10px;
+    background-color: #80808045;
+    border-radius: 10px;
+    padding: 3 8px 0 12px;
+}
+
+.thoitiet{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.thoitiet h2{
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.thoitiet span{
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.thoitiet div{
+    white-space: nowrap;
+    margin-right: 10px;
+}
+.danang{
+    margin-right: 40px;
+}
+.page-wrapper2 .container{
+    display: flex;
+    width: 1100px;
+}
+.newstrending{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+.newstrending li {
+    padding-bottom: 5px;
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #00000054;
+    justify-content: space-between;
+}
+.img{
+    width: calc(40% - 5px);
+}
+.ndung{
+    width: calc(60% - 5px);
+    align-items: center;
+}
+.newsfeatured {
+    width: calc(66.5% - 20px);
+    margin-right: 20px;
+}
+.imgnewf {
+    margin-bottom: 15px;
+}
+.ndungnew h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.ndungnew {
+    text-align: center;
+}
+.ndungnew p {
+    margin-bottom: 10px;
+}
+.ndungnew a{
+    display: list-item;
+
+}
+.article {
+    display: block;
+    width: calc(40% - 5px);
+}
+.article li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.article img {
+    margin-bottom: 10px;
+}
+.section{
+    width: 1140px;
+    height: 580px;
+    background-color: #ffff0061;
+    padding: 30px;
+}
+.sectionul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.section-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.section-content2{
+    width: calc(50% - 10px);
+}
+
+.arti{
+    width: calc(50% - 10px) ;
+    
+}
+.xemay {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.ig{
+    width: calc(50% - 10px);
+}
+.dailoan h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.xemay p {
+    font-weight: bold;
+    margin-top: 25px;
+}
+.book {
+    padding: 20px;
+}
+
+.book h3 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid  #0000004f;
+    height: 20px;
+}
+.section-public {
+    display: flex;
+    width: 100%;
+    height: 55%;
+    justify-content: space-between;
+}
+.khanang{
+    width: calc(20% - 10px);
+    border: 1px solid #0000004f;
+    border-radius: 5px;
+}
+.khanang div {
+    margin-bottom: 10px;
+}
+.khanang p {
+    font-weight: bold;
+    text-align: center;
+}
+.ongvuong{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.trungquoc{
+    width: calc(70% - 10px);
+}
+.thegioi{
+    width: calc(25% - 10px);
+    padding: 20px;
+    border: 1px solid #00000047;
+    border-radius: 5px;
+}
+.vuongnghi{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.nguyhiem{
+    width: calc(30% - 10px);
+}
+.phanno{
+    width: calc(70% - 10px);
+}
+.phanno h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.xahoi{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.thegioi h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.xhhinh{
+    width: calc(30% - 10px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cnghe{
+    width: calc(70% - 5px);
+    margin-bottom: 10px;
+}
+.cnghe span{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cnghe p{
+    font-size: 12px;
+}
+.lst h3{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0000004a;
+}
+.lst1 {
+    display: flex;
+}
+.lst2{
+    width: calc(60% - 10px);
+}
+.lst3{
+    width: calc(30% - 10px);
+}
+.lst31{
+    font-weight: bold;
+}
+.lst4{
+    width: calc(20% - 10px);
+}
+.lst21 h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
